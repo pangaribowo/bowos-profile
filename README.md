@@ -16,7 +16,7 @@ bowos-profile/
 │   └── img/
 ├── styles/
 │   └── style.css
-├── darkmode.js
+├── glapmode.js
 ├── index.html
 └── README.md
 ```

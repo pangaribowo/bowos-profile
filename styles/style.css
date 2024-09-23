@@ -28,7 +28,7 @@ blockquote {
     --max-width: 1200px;
 }
 
-.darkmode {
+.mode-gelap {
     --base-color: #070b1d;
     --base-variant: #101425;
     --text-color: #fff;
@@ -223,7 +223,7 @@ button {
     background-color: var(--accent-color);
 }
 
-#theme-switch {
+#pengalih-tema {
     height: 50px;
     width: 50px;
     padding: 0;
@@ -237,19 +237,19 @@ button {
     right: 20px;
 }
 
-#theme-switch svg {
+#pengalih-tema svg {
     fill: var(--primary-color);
 }
 
-#theme-switch svg:last-child {
+#pengalih-tema svg:last-child {
     display: none;
 }
 
-.darkmode #theme-switch svg:first-child {
+.mode-gelap #pengalih-tema svg:first-child {
     display: none;
 }
 
-.darkmode #theme-switch svg:last-child {
+.mode-gelap #pengalih-tema svg:last-child {
     display: block;
 }
 
@@ -262,12 +262,12 @@ article, aside, footer {
 }
 
 /* Dark Mode Styles */
-body.darkmode {
+body.mode-gelap {
     background-color: var(--base-color);
     color: var(--text-color);
 }
 
-header.darkmode, nav.darkmode, footer.darkmode, section.darkmode {
+header.mode-gelap, nav.mode-gelap, footer.mode-gelap, section.mode-gelap {
     background-color: var(--base-variant);
 }
 
@@ -512,7 +512,7 @@ img {
         width: 100%;
     }
 
-    #theme-switch {
+    #pengalih-tema {
         margin-left: auto;
     }
 
@@ -526,13 +526,13 @@ img {
         padding: 10px 0;
     }
 
-/* Hamburger menu for smaller screens */
-nav ul.active {
-    display: flex;
-}
+    /* Hamburger menu for smaller screens */
+    nav ul.active {
+        display: flex;
+    }
 
-#theme-switch {
-    display: block;
+    #pengalih-tema {
+        display: block;
 }
 }
 
@@ -548,7 +548,7 @@ nav ul.active {
 }
 
 /* Menyelaraskan tombol tema dengan navigasi */
-#theme-switch {
+#pengalih-tema {
     border: none;
     display: flex;
     align-items: center;
@@ -561,12 +561,12 @@ nav ul.active {
 }
 
 /* SVG ikon tema */
-#theme-switch svg {
+#pengalih-tema svg {
     fill: #fff;
     transition: fill 0.3s;
 }
 
 /* Efek hover pada ikon */
-#theme-switch:hover svg {
+#pengalih-tema:hover svg {
     fill: #006400;
 }
